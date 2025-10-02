@@ -1,0 +1,25 @@
+{
+  "name": "pm-maturity-model",
+  "version": "1.0.0",
+  "description": "Product Management Maturity Model - A practice-based framework for B2B/Enterprise product teams",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR-USERNAME/pm-maturity-model.git"
+  },
+  "keywords": [
+    "product-management",
+    "maturity-model",
+    "self-assessment",
+    "b2b",
+    "enterprise"
+  ],
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "MIT"
+}

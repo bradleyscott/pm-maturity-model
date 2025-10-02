@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management Maturity Model</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .card {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="min-h-screen">
+        <!-- Header -->
+        <header class="bg-white shadow-sm border-b border-gray-200">
+            <div class="max-w-7xl mx-auto px-6 py-6">
+                <h1 class="text-4xl font-bold text-gray-900">Product Management Maturity Model</h1>
+                <p class="text-lg text-gray-600 mt-2">A practice-based framework for B2B/Enterprise product teams</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="max-w-7xl mx-auto px-6 py-12">
+            <!-- Introduction -->
+            <div class="bg-blue-50 border-l-4 border-blue-400 p-6 rounded-lg mb-12">
+                <h2 class="text-2xl font-bold text-gray-900 mb-3">Welcome!</h2>
+                <p class="text-gray-700 mb-3">
+                    This framework helps product teams assess their current capabilities and plan improvements 
+                    across three maturity levels: <strong>Foundational Practices</strong>, <strong>Outcome-Driven Operations</strong>, 
+                    and <strong>Strategic Innovation Engine</strong>.
+                </p>
+                <p class="text-gray-700">
+                    Built on insights from leading product thinkers including Marty Cagan (SVPG), Teresa Torres, 
+                    Ravi Mehta, Melissa Perri, and Lenny Rachitsky.
+                </p>
+            </div>
+
+            <!-- Navigation Cards -->
+            <div class="grid md:grid-cols-3 gap-6 mb-12">
+                <!-- Model Card -->
+                <a href="model.html" class="card bg-white rounded-lg shadow-md p-6 border-2 border-purple-200 hover:border-purple-400 cursor-pointer">
+                    <div class="text-4xl mb-4">📊</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">The Model</h3>
+                    <p class="text-gray-600 mb-4">
+                        Explore the complete maturity model with detailed criteria for each practice at every level.
+                    </p>
+                    <span class="text-purple-600 font-semibold">View Model →</span>
+                </a>
+
+                <!-- Assessment Card -->
+                <a href="assessment.html" class="card bg-white rounded-lg shadow-md p-6 border-2 border-blue-200 hover:border-blue-400 cursor-pointer">
+                    <div class="text-4xl mb-4">✅</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Self-Assessment</h3>
+                    <p class="text-gray-600 mb-4">
+                        Evaluate your team's current state and identify priority areas for improvement.
+                    </p>
+                    <span class="text-blue-600 font-semibold">Start Assessment →</span>
+                </a>
+
+                <!-- Guide Card -->
+                <a href="guide.html" class="card bg-white rounded-lg shadow-md p-6 border-2 border-green-200 hover:border-green-400 cursor-pointer">
+                    <div class="text-4xl mb-4">🚀</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Getting Started</h3>
+                    <p class="text-gray-600 mb-4">
+                        Practical guidance for teams at each maturity level, including quick wins and pitfalls to avoid.
+                    </p>
+                    <span class="text-green-600 font-semibold">Get Started →</span>
+                </a>
+            </div>
+
+            <!-- How to Use -->
+            <div class="bg-white rounded-lg shadow-md p-8 mb-12">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">How to Use This Framework</h2>
+                <div class="space-y-4">
+                    <div class="flex items-start gap-3">
+                        <div class="bg-purple-100 text-purple-600 font-bold w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">1</div>
+                        <div>
+                            <h3 class="font-semibold text-gray-900">Start with The Model</h3>
+                            <p class="text-gray-600">Familiarize yourself with the three maturity levels and practice areas</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <div class="bg-purple-100 text-purple-600 font-bold w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">2</div>
+                        <div>
+                            <h3 class="font-semibold text-gray-900">Read the Getting Started Guide</h3>
+                            <p class="text-gray-600">Understand which level is right for you and how to begin</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <div class="bg-purple-100 text-purple-600 font-bold w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">3</div>
+                        <div>
+                            <h3 class="font-semibold text-gray-900">Complete the Self-Assessment</h3>
+                            <p class="text-gray-600">Honestly evaluate your team's current practices</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <div class="bg-purple-100 text-purple-600 font-bold w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">4</div>
+                        <div>
+                            <h3 class="font-semibold text-gray-900">Focus on 2-3 Priorities</h3>
+                            <p class="text-gray-600">Don't try to improve everything at once—focus on what matters most</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <div class="bg-purple-100 text-purple-600 font-bold w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">5</div>
+                        <div>
+                            <h3 class="font-semibold text-gray-900">Reassess Quarterly</h3>
+                            <p class="text-gray-600">Track progress and adjust priorities based on what you've learned</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Key Principles -->
+            <div class="bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg p-8 border-2 border-purple-200">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">Key Principles</h2>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="flex items-start gap-2">
+                        <span class="text-purple-600 text-xl">✓</span>
+                        <p class="text-gray-700"><strong>Cumulative:</strong> Practices build on each other</p>
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-purple-600 text-xl">✓</span>
+                        <p class="text-gray-700"><strong>Self-paced:</strong> Teams progress at their own speed</p>
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-purple-600 text-xl">✓</span>
+                        <p class="text-gray-700"><strong>Mixed maturity:</strong> Teams can be strong in some areas, weaker in others</p>
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-purple-600 text-xl">✓</span>
+                        <p class="text-gray-700"><strong>AI-enabled:</strong> Leverage AI where it genuinely accelerates work</p>
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-purple-600 text-xl">✓</span>
+                        <p class="text-gray-700"><strong>Honest assessment:</strong> Aspirational ratings won't help you improve</p>
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-purple-600 text-xl">✓</span>
+                        <p class="text-gray-700"><strong>Focus beats breadth:</strong> Better to do 2-3 things well</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-white border-t border-gray-200 mt-12">
+            <div class="max-w-7xl mx-auto px-6 py-6 text-center text-gray-600 text-sm">
+                <p>Product Management Maturity Model | Built for B2B/Enterprise Product Teams</p>
+                <p class="mt-2"><a href="index.html" class="text-purple-600 hover:text-purple-800">← Back to Home</a></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Generated files (auto-generated from YAML sources)
+# Build directory - contains all intermediate JSON files
+build/
+
+# Generated HTML files (except index.html which is a source file)
+public/model.html
+public/assessment.html
+public/guide.html
+
+# NPM
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+.env
+.env.local

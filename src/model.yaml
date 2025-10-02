@@ -1,0 +1,241 @@
+levels:
+  - id: level1
+    name: 'Level 1: Foundational Practices'
+    color: bg-amber-50 border-amber-200
+    headerColor: bg-amber-100
+    description: Establishing core product management disciplines and standards
+    context: >-
+      At this level, teams establish the fundamental practices that enable consistent, professional product management.
+      The focus is on creating predictability, reducing chaos, and ensuring everyone speaks the same language. This is
+      about moving from ad-hoc, reactive work to intentional, structured practices.
+    value: >-
+      Business value: Reduced rework, clearer accountability, ability to scale the team, and foundational trust with
+      stakeholders. Teams can reliably ship what they commit to.
+    practices:
+      - id: p1-teaming
+        name: Teaming Models
+        criteria:
+          - Product teams are organized around specific product areas or customer segments
+          - Clear PM/PO ownership is established for each team
+          - Teams include dedicated UX and engineering leadership
+          - Cross-functional collaboration rhythms are defined (standups, reviews, retros)
+        ai:
+          enabled: false
+          examples: []
+      - id: p1-specs
+        name: PRD Standards & Documentation
+        criteria:
+          - Standardized templates exist for product specifications
+          - All features have written specs before development begins
+          - Specs include problem statement, user needs, success criteria
+          - Documentation is accessible and searchable by the team
+        ai:
+          enabled: true
+          examples:
+            - Using AI to draft initial PRD sections from brief problem statements
+            - AI-assisted creation of user story acceptance criteria
+            - Automated consistency checking across related specs
+      - id: p1-roadmap
+        name: Roadmaps & Planning Cadence
+        criteria:
+          - Public roadmap exists and is regularly communicated
+          - Roadmap includes rough timeframes (quarters/months)
+          - Regular planning cycles are established (quarterly planning)
+          - Stakeholders know how to provide input into planning
+        ai:
+          enabled: true
+          examples:
+            - AI synthesis of stakeholder feedback into roadmap themes
+            - Automated roadmap formatting and visualization
+            - AI-assisted competitive analysis to inform roadmap positioning
+      - id: p1-quality
+        name: Product Quality Standards
+        criteria:
+          - Definition of Done is documented and followed
+          - Quality gates exist before production release
+          - Bug triage process is established
+          - Clear accountability for production issues
+        ai:
+          enabled: false
+          examples: []
+      - id: p1-delivery
+        name: Delivery Process & DOR
+        criteria:
+          - Definition of Ready exists for work entering development
+          - Work breakdown is consistently sized and estimated
+          - Regular delivery cadence (sprints/releases) is maintained
+          - Delivery metrics are tracked (velocity, cycle time)
+        ai:
+          enabled: false
+          examples: []
+  - id: level2
+    name: 'Level 2: Outcome-Driven Operations'
+    color: bg-blue-50 border-blue-200
+    headerColor: bg-blue-100
+    description: Shifting from output focus to outcome ownership and systematic learning
+    context: >-
+      Teams at this level have mastered the basics and now shift their focus from "shipping features" to "delivering
+      business value." They establish systematic ways to understand customer needs, measure what matters, and connect
+      their work to business outcomes. The conversation changes from "when will it ship?" to "what impact did it have?"
+    value: >-
+      Business value: Product decisions become more data-informed, teams can articulate ROI, customer satisfaction
+      improves measurably, and resources are allocated to highest-impact work. Leadership gains confidence in product as
+      a strategic function.
+    practices:
+      - id: p2-discovery
+        name: Discovery & Customer Insight (Evolution)
+        criteria:
+          - Regular cadence of customer interviews/research (monthly minimum)
+          - Research insights are documented and shared across teams
+          - Customer feedback is systematically collected from support, sales, success
+          - Product decisions reference specific customer insights
+          - Teams maintain customer insight repositories or research libraries
+        ai:
+          enabled: true
+          examples:
+            - AI synthesis of customer interview transcripts into key themes
+            - Automated analysis of support tickets and feature requests to identify patterns
+            - LLM-powered analysis of sales call recordings for common objections
+            - AI-generated customer personas from aggregated research data
+      - id: p2-outcomes
+        name: Outcomes Over Outputs
+        criteria:
+          - Teams have defined business metrics they own
+          - Features are connected to specific outcome hypotheses
+          - Success criteria are defined before work begins
+          - Post-launch reviews assess actual vs expected outcomes
+          - Roadmap discussions center on outcomes, not features
+        ai:
+          enabled: true
+          examples:
+            - AI analysis of metric correlations to suggest outcome measures
+            - Automated generation of outcome hypotheses based on similar past initiatives
+            - LLM assistance in translating qualitative goals into measurable outcomes
+      - id: p2-analytics
+        name: Product Analytics Stack
+        criteria:
+          - Instrumentation strategy exists for product events
+          - Analytics tools are implemented and accessible to PMs
+          - Key product metrics are defined and dashboarded
+          - Teams can self-serve basic product analytics
+          - Data quality issues have an escalation path
+        ai:
+          enabled: true
+          examples:
+            - AI-powered anomaly detection in product metrics
+            - Natural language queries for product analytics ("Why did engagement drop last week?")
+            - Automated insight generation from metric changes
+      - id: p2-adoption
+        name: Adoption Planning & Marketing
+        criteria:
+          - Launch plans include customer communication strategy
+          - Feature adoption is tracked and analyzed
+          - Go-to-market collaboration with sales/success/marketing is structured
+          - Customer education materials are created for major releases
+          - Poor adoption triggers investigation and iteration
+        ai:
+          enabled: true
+          examples:
+            - AI-generated draft release notes and customer communications
+            - Automated segmentation of customers for targeted feature rollouts
+            - LLM creation of customer education content from specs
+      - id: p2-experimentation
+        name: Experimentation & Learning
+        criteria:
+          - Teams run regular A/B tests or controlled experiments
+          - Backlog of hypotheses/experiments is maintained
+          - Experiment results are shared and learned from (even failures)
+          - Experimentation infrastructure exists (feature flags, A/B framework)
+          - Small bets are tested before large investments
+        ai:
+          enabled: true
+          examples:
+            - AI-powered experiment design and hypothesis generation
+            - Automated statistical significance calculations and recommendations
+            - LLM synthesis of experiment results into actionable insights
+            - AI suggestions for follow-up experiments based on results
+  - id: level3
+    name: 'Level 3: Strategic Innovation Engine'
+    color: bg-purple-50 border-purple-200
+    headerColor: bg-purple-100
+    description: Driving organizational strategy, technical direction, and continuous innovation
+    context: >-
+      Teams at this level are recognized as strategic partners to the business. They don't just execute on a strategy
+      handed to them—they shape the strategy itself. Product teams identify new opportunities, drive technical
+      architecture decisions, and continuously discover the next wave of innovation. The product function is seen as a
+      source of competitive advantage.
+    value: >-
+      Business value: First-mover advantages, sustainable differentiation, efficient capital allocation to innovation,
+      reduced risk of disruption. Product teams become magnets for top talent. The organization can pivot strategically
+      with confidence.
+    practices:
+      - id: p3-continuous-discovery
+        name: Continuous Discovery (Evolution)
+        criteria:
+          - Discovery work happens weekly, not just during planning cycles
+          - Multiple research methods are used systematically (interviews, surveys, usage data, field visits)
+          - Opportunity solution trees or similar frameworks guide discovery
+          - Teams have autonomy to pursue discovered opportunities
+          - Discovery insights feed directly into quarterly strategy
+          - Cross-team research insights are shared systematically
+        ai:
+          enabled: true
+          examples:
+            - AI-powered opportunity scoring based on customer pain intensity and frequency
+            - Automated synthesis of multi-source research into opportunity solution trees
+            - LLM-generated research discussion guides tailored to specific hypotheses
+            - Continuous AI monitoring of customer sentiment across all touchpoints
+      - id: p3-strategy
+        name: Product-Led Business Strategy
+        criteria:
+          - Product leaders contribute to company strategy formulation
+          - Product teams identify new business opportunities and markets
+          - Product strategy includes 2-3 year vision, not just near-term roadmap
+          - Build vs buy vs partner decisions are product-led
+          - Product organization influences company resource allocation
+        ai:
+          enabled: true
+          examples:
+            - AI-powered competitive intelligence and market trend analysis
+            - LLM synthesis of industry research into strategic implications
+            - AI-assisted scenario planning and strategy visualization
+            - Automated TAM/SAM/SOM calculations from market research
+      - id: p3-technical-strategy
+        name: Technical Architecture & Platform Decisions
+        criteria:
+          - Product and engineering co-own technical strategy
+          - Product teams advocate for platform investments and technical debt work
+          - Technical architecture decisions consider product strategy
+          - Platform capabilities enable rapid product experimentation
+          - Product leaders can articulate technical strategy to executives
+        ai:
+          enabled: true
+          examples:
+            - AI analysis of technical debt impact on product velocity
+            - LLM-assisted business case creation for platform investments
+            - AI benchmarking of technical architecture against industry patterns
+      - id: p3-cocreation
+        name: Customer Co-Creation
+        criteria:
+          - Structured programs exist for customer advisory boards or design partners
+          - Early-stage product concepts are tested with customers regularly
+          - Beta/alpha programs systematically validate new products
+          - Customer co-creation informs product vision, not just features
+          - Strategic customers contribute to multi-year roadmap
+        ai:
+          enabled: true
+          examples:
+            - AI synthesis of co-creation session outputs into product requirements
+            - Automated analysis of beta feedback to prioritize refinements
+            - LLM-generated summaries of advisory board insights for executive team
+      - id: p3-influence
+        name: Cross-Org Influence & Product Culture
+        criteria:
+          - Product management is seen as a strategic function, not a service organization
+          - Product leaders influence hiring and org design beyond product
+          - Product thinking spreads to other departments (outcome-orientation, experimentation)
+          - Product organization attracts top talent in the industry
+          - Executive team seeks product input on strategic decisions
+        ai:
+          enabled: false
+          examples: []

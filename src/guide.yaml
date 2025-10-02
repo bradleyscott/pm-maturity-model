@@ -1,0 +1,179 @@
+levels:
+  - readyWhen:
+      - Your team is experiencing chaos—unclear priorities, frequent context switching, or stakeholder confusion
+      - Different team members work in completely different ways with no shared standards
+      - You're spending more time in reactive meetings than proactive work
+      - Engineering is building things without clear specifications
+      - Leadership doesn't trust product team commitments
+    startHere:
+      title: Start with the Foundation Trio
+      items:
+        - name: 1. Establish Teaming Models (Week 1-2)
+          steps:
+            - 'Define who owns what: Map product areas to specific PM/PO owners'
+            - 'Formalize your cross-functional teams: Make sure each team has dedicated UX and eng leadership'
+            - 'Set up basic collaboration rhythms: Daily standups, sprint reviews, retrospectives'
+            - 'Create a team charter: One page documenting mission, members, and ways of working'
+        - name: 2. Implement PRD Standards (Week 2-4)
+          steps:
+            - 'Don''t overcomplicate: Start with a simple template (Problem, User Need, Solution, Success Criteria)'
+            - 'Pick one upcoming feature: Write the first spec using your new template'
+            - 'Review with the team: Does this give them what they need? Adjust template based on feedback'
+            - 'Make it a gate: No development starts without a spec. Period.'
+            - 'AI Quick Win: Use Claude/ChatGPT to draft initial spec sections from brief notes'
+        - name: 3. Create Roadmap Visibility (Week 4-6)
+          steps:
+            - 'Start with what you know: Document the next 2-3 quarters based on current commitments'
+            - 'Add themes not features: Group work into strategic themes stakeholders care about'
+            - 'Establish planning cadence: Schedule your first quarterly planning session'
+            - 'Share broadly: Make the roadmap accessible to sales, success, support, executives'
+            - 'AI Quick Win: Use AI to synthesize stakeholder requests into roadmap themes'
+    quickWins:
+      - 'Template everything: Create templates for specs, roadmaps, sprint reviews within first 2 weeks'
+      - 'Run a "ways of working" workshop: Get team alignment on practices in one 2-hour session'
+      - 'Create a Slack channel or wiki: Centralize all product documentation in one searchable place'
+      - 'Establish "no spec, no dev" rule: Simple forcing function that drives better practice'
+      - 'Copy from the best: Find spec and roadmap examples from other teams in your company'
+    pitfalls:
+      - ❌ Trying to implement all 5 practices simultaneously—you'll overwhelm the team
+      - ❌ Creating overly complex specs that take days to write—start simple, elaborate as needed
+      - ❌ Making practices feel like bureaucracy—emphasize how they reduce chaos and rework
+      - ❌ Letting "urgent" work skip the process—consistency matters more than perfection
+      - ❌ Not getting engineering buy-in—co-create the Definition of Ready with your tech lead
+    successLooks:
+      - ✅ No one asks "what are you working on?"—it's documented and visible
+      - ✅ Engineering rarely has to come back and ask "what did you mean?"
+      - ✅ Stakeholders know how to influence the roadmap instead of random hallway requests
+      - ✅ New team members can onboard by reading documentation
+      - ✅ You spend less time in reactive meetings because information is accessible
+    nextLevel:
+      - All 5 foundational practices are established and feel routine
+      - Your team consistently meets commitments
+      - Stakeholders trust product team to deliver
+      - You have cycles to think beyond just shipping features
+      - Engineering and UX feel like partners, not order-takers
+    timeline: 2-4 months to establish
+  - readyWhen:
+      - Level 1 practices are solid and no longer feel like heavy lifting
+      - You're shipping features but struggling to articulate their impact
+      - Roadmap decisions are based on intuition or whoever asks loudest
+      - You have analytics tools but teams aren't using them systematically
+      - Leadership is asking "what business value did that deliver?"
+    startHere:
+      title: Shift from Output to Outcome Focus
+      items:
+        - name: 1. Define Your Outcome Metrics (Month 1)
+          steps:
+            - >-
+              Start with business metrics: What business outcomes does your product area own? (Revenue, retention,
+              efficiency, etc.)
+            - >-
+              Define 2-3 key product metrics: These should connect to business outcomes (MAU, activation rate, feature
+              adoption, NPS)
+            - 'Get exec alignment: Validate these are the right metrics to optimize'
+            - 'Create a baseline: What are current values? Set targets for next quarter'
+            - 'Make them visible: Dashboard these metrics where the team sees them daily'
+        - name: 2. Establish Discovery Practices (Month 1-2)
+          steps:
+            - 'Schedule recurring customer interviews: Block 3-4 hours/week, every week'
+            - 'Set up feedback channels: Connect to support tickets, sales calls, CSM feedback'
+            - 'Create research repository: Use Dovetail, Notion, or Confluence to store insights'
+            - 'Share insights broadly: Weekly synthesis email to stakeholders'
+            - 'AI Quick Win: Use AI to transcribe and synthesize interview notes into themes'
+        - name: 3. Build Experimentation Muscle (Month 2-3)
+          steps:
+            - 'Pick one upcoming feature: Turn it into a hypothesis with success criteria'
+            - 'Implement feature flags: Start with simple on/off toggles, progress to A/B tests'
+            - 'Run your first A/B test: Even if it''s small—prove the infrastructure works'
+            - 'Document and share learnings: Even (especially!) failed experiments'
+            - 'Create experiment backlog: Maintain a list of things you want to test'
+    quickWins:
+      - 'Add "success criteria" section to your spec template: Forces outcome thinking from the start'
+      - 'Schedule monthly metric reviews: 1-hour session to review trends and discuss implications'
+      - 'Connect one engineer to your customer calls: Builds empathy and improves collaboration'
+      - 'Create "customer voice" Slack channel: Auto-post interesting support tickets and feedback'
+      - 'Run a "what would we test?" workshop: Generate 20 experiment ideas with the team'
+    pitfalls:
+      - ❌ Defining vanity metrics that don't connect to business value
+      - ❌ Doing customer research but not changing anything based on it
+      - ❌ Running experiments without clear hypotheses—you'll learn nothing useful
+      - ❌ Waiting for "perfect" analytics infrastructure—start with what you have
+      - ❌ Cherry-picking data to support predetermined decisions
+      - ❌ Not connecting features to outcomes in roadmap discussions
+    successLooks:
+      - ✅ Roadmap conversations focus on outcomes, not feature requests
+      - ✅ Team can articulate why they're building something and how they'll measure success
+      - ✅ Post-launch reviews assess impact, not just "did we ship it"
+      - ✅ Customer insights influence prioritization decisions
+      - ✅ Team is excited to run experiments and learn, not just ship features
+      - ✅ Leadership sees product as data-informed, not just reactive
+    nextLevel:
+      - All Level 2 practices feel routine
+      - Outcome metrics are green or you know exactly why they're red
+      - Discovery happens weekly without needing to be reminded
+      - Team has run 5+ experiments and learned from them
+      - Product decisions can be explained with data AND customer insight
+      - Leadership asks you to help other teams adopt these practices
+    timeline: 4-6 months to establish
+  - readyWhen:
+      - Levels 1 and 2 are running smoothly and feel like "how we work"
+      - You've maxed out obvious optimizations—now need to find what's next
+      - Leadership sees product team as competent execution arm, but not strategic
+      - You have insights about where the market is heading but no forum to discuss
+      - Technical architecture decisions happen without product input
+      - Product team wants more autonomy and strategic influence
+    startHere:
+      title: Shift from Execution to Strategic Partner
+      items:
+        - name: 1. Implement Continuous Discovery (Month 1-2)
+          steps:
+            - 'Go from monthly to weekly customer research: Block 4-6 hours every week, non-negotiable'
+            - 'Diversify research methods: Add surveys, field visits, data analysis, competitive analysis'
+            - 'Adopt opportunity solution trees: Visualize how customer needs connect to solutions'
+            - 'Share discovery insights in exec meetings: Make leadership aware of what you''re learning'
+            - 'AI Quick Win: Use AI to synthesize multi-source research into actionable opportunity areas'
+        - name: 2. Develop Strategic Muscle (Month 2-4)
+          steps:
+            - 'Write a 2-3 year product vision: What should the product become? Why?'
+            - 'Identify strategic opportunities: What new markets, use cases, or business models make sense?'
+            - 'Present to leadership: Schedule time to discuss product strategy, not just roadmap'
+            - 'Connect product to company strategy: Show how product can enable company goals'
+            - 'AI Quick Win: Use AI for competitive analysis and market trend synthesis'
+        - name: 3. Partner on Technical Strategy (Month 3-4)
+          steps:
+            - 'Schedule product/eng strategy sessions: Quarterly discussions about technical direction'
+            - 'Build business case for platform investments: Articulate how technical work enables product goals'
+            - 'Co-present to exec team: Show united front on technical architecture decisions'
+            - 'Involve product in build/buy/partner decisions: Bring customer perspective to vendor evaluations'
+        - name: 4. Create Customer Co-Creation Programs (Month 4-6)
+          steps:
+            - 'Identify strategic customers: Who do you want to build the future with?'
+            - 'Establish advisory board: Quarterly meetings with 6-10 strategic customers'
+            - 'Run beta/alpha programs: Test early concepts with customers who will give honest feedback'
+            - 'Document and share co-creation insights: Make this visible to exec team'
+    quickWins:
+      - 'Create product strategy one-pager: Forces clarity on vision and strategic choices'
+      - 'Invite a customer to an exec team meeting: Brings customer voice directly to leadership'
+      - 'Run "opportunity solution tree" workshop: Creates shared understanding of strategic opportunities'
+      - 'Present competitive analysis quarterly: Position product team as market intelligence source'
+      - 'Co-author tech blog post with engineering: Demonstrates strategic partnership'
+    pitfalls:
+      - ❌ Thinking "strategy" means long presentations instead of clear choices
+      - ❌ Advocating for innovation without connecting to business value
+      - ❌ Bypassing engineering leadership when discussing technical strategy
+      - ❌ Only engaging with customers you already agree with
+      - ❌ Creating strategy in a vacuum instead of with cross-functional partners
+      - ❌ Letting perfect be enemy of good—you don't need a complete 3-year plan to start
+    successLooks:
+      - ✅ Product team is invited to contribute to company strategy discussions
+      - ✅ Exec team asks product opinion on M&A, partnership, and investment decisions
+      - ✅ Product team identifies new opportunities before they're requested
+      - ✅ Technical architecture enables rapid experimentation
+      - ✅ Strategic customers see you as partner, not just vendor
+      - ✅ Product team is a talent magnet—people want to work there
+      - ✅ Other departments adopt product practices (experimentation, outcome focus)
+    nextLevel:
+      - This IS the peak. Now the work is sustaining excellence and continuously discovering the future.
+      - 'Key question: Are you driving disruption or being disrupted?'
+      - 'Next frontier: Expanding this model to the entire company'
+    timeline: 6-12 months to establish
