@@ -16,9 +16,9 @@ Each level contains specific practices with clear pass criteria that teams can u
 
 **[View Live Site](#)** ← Deploy to see the interactive version
 
-- [View the Maturity Model](public/model.html) - Explore all 3 levels and 15 practices
-- [Take the Self-Assessment](public/assessment.html) - Evaluate your team's current state
-- [Read the Getting Started Guide](public/guide.html) - Step-by-step implementation guidance
+- [View the Maturity Model](https://pm-maturity-model.netlify.app/model) - Explore all 3 levels and 15 practices
+- [Take the Self-Assessment](https://pm-maturity-model.netlify.app/assessment) - Evaluate your team's current state
+- [Read the Getting Started Guide](https://pm-maturity-model.netlify.app/guide) - Step-by-step implementation guidance
 
 ## 💡 Key Features
 
@@ -33,6 +33,7 @@ Each level contains specific practices with clear pass criteria that teams can u
 The model covers **15 practices across 3 levels**:
 
 **Level 1 (Foundational):**
+
 - Teaming Models
 - PRD Standards & Documentation ✨
 - Roadmaps & Planning Cadence ✨
@@ -40,6 +41,7 @@ The model covers **15 practices across 3 levels**:
 - Delivery Process & DOR
 
 **Level 2 (Outcome-Driven):**
+
 - Discovery & Customer Insight ✨
 - Outcomes Over Outputs ✨
 - Product Analytics Stack ✨
@@ -47,6 +49,7 @@ The model covers **15 practices across 3 levels**:
 - Experimentation & Learning ✨
 
 **Level 3 (Strategic):**
+
 - Continuous Discovery ✨
 - Product-Led Business Strategy ✨
 - Technical Architecture & Platform Decisions ✨
@@ -60,6 +63,7 @@ The model covers **15 practices across 3 levels**:
 We welcome contributions! This model is a living document that should evolve with product management best practices.
 
 **Ways to contribute:**
+
 - 📝 Improve practice definitions and criteria
 - 💡 Add real-world examples
 - ✨ Suggest new AI acceleration opportunities
@@ -71,20 +75,17 @@ We welcome contributions! This model is a living document that should evolve wit
 ## 📝 Quick Start for Contributors
 
 **Content contributors:** Edit YAML files in the `src/` directory:
+
 - `src/model.yaml` - **SOURCE OF TRUTH** - The maturity levels and practices
 - `src/guide.yaml` - Implementation guidance (tips, pitfalls, quick wins)
 
-**DO NOT EDIT** these files (they're auto-generated in `build/` directory):
-- `build/model.json`, `build/guide-source.json` - Auto-generated from YAML sources
-- `build/assessment.json` - Auto-generated from model.json
-- `build/guide.json` - Auto-generated from model.json + guide-source.json
-
 After editing, run:
+
 ```bash
 npm run build      # Converts YAML → JSON → HTML
 ```
 
-See [src/README.md](src/README.md) for detailed content editing guidance.
+See [src/README.md](src/README.md) and [CONTRIBUTING.md](CONTRIBUTING.md) for detailed content editing guidance.
 
 ## 🏗️ For Developers
 
@@ -92,21 +93,8 @@ See [src/README.md](src/README.md) for detailed content editing guidance.
 - **Architecture:** [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 - **Deployment:** [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)
 
-## 🌟 About This Model
-
-This model synthesizes best practices from leading product thinkers including:
-- Marty Cagan (SVPG)
-- Teresa Torres
-- Ravi Mehta
-- Melissa Perri
-- Lenny Rachitsky
-
-Tailored specifically for B2B/B2E enterprise software product teams.
-
 ## 📄 License
 
-[Add your license here]
+This work is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/).
 
-## 🙏 Acknowledgments
-
-Built with contributions from the product management community.
+You are free to use, share, and adapt this maturity model for any purpose, including commercial use, as long as you provide appropriate attribution.
