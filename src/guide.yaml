@@ -83,7 +83,7 @@ levels:
         - name: 3. Build Experimentation Muscle (Month 2-3)
           steps:
             - 'Pick one upcoming feature: Turn it into a hypothesis with success criteria'
-            - 'Establish your experimentation toolkit: Define 2-3 research methods (e.g., user testing, analytics analysis, surveys) you'll use regularly'
+            - 'Establish your experimentation toolkit: Define 2-3 research methods (e.g., user testing, analytics analysis, surveys) you''ll use regularly'
             - 'Run your first structured experiment: Execute a small test using whichever method fits best—prove the habit, not the infrastructure'
             - 'Document and share learnings: Even (especially!) failed experiments'
             - 'Create experiment backlog: Maintain a list of things you want to test'
