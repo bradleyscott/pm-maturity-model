@@ -14,7 +14,7 @@ Each level contains specific practices with clear pass criteria that teams can u
 
 ## 🚀 Use the Model
 
-**[View Live Site](#)** ← Deploy to see the interactive version
+**[View Live Site](https://pm-maturity-model.netlify.app)** ← Deploy to see the interactive version
 
 - [View the Maturity Model](https://pm-maturity-model.netlify.app/model) - Explore all 3 levels and 15 practices
 - [Take the Self-Assessment](https://pm-maturity-model.netlify.app/assessment) - Evaluate your team's current state
