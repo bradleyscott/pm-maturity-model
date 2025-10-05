@@ -50,8 +50,7 @@ function generateModelHTML(data) {
                 <h3 class="text-xl font-semibold text-gray-900 mb-4">About This Model</h3>
                 <div class="space-y-3 text-sm text-gray-700">
                     <p>
-                        This model synthesizes best practices from leading product thinkers including Marty Cagan (SVPG),
-                        Teresa Torres, Ravi Mehta, Melissa Perri, Lenny Rachitsky, and others, tailored for
+                        This model synthesizes best practices from leading product thinkers and is tailored for
                         B2B/B2E enterprise software product teams.
                     </p>
                     <p>
