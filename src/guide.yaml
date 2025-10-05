@@ -23,7 +23,7 @@ levels:
             - 'AI Quick Win: Use Claude/ChatGPT to draft initial spec sections from brief notes'
         - name: 3. Create Roadmap Visibility (Week 4-6)
           steps:
-            - 'Start with what you know: Document the next 2-3 quarters based on current commitments'
+            - 'Start with what you know: Document the near future based on current commitments'
             - 'Add themes not features: Group work into strategic themes stakeholders care about'
             - 'Establish planning cadence: Schedule your first quarterly planning session'
             - 'Share broadly: Make the roadmap accessible to sales, success, support, executives'
@@ -39,7 +39,7 @@ levels:
       - ❌ Creating overly complex specs that take days to write—start simple, elaborate as needed
       - ❌ Making practices feel like bureaucracy—emphasize how they reduce chaos and rework
       - ❌ Letting "urgent" work skip the process—consistency matters more than perfection
-      - ❌ Not getting engineering buy-in—co-create the Definition of Ready with your tech lead
+      - ❌ Not getting engineering buy-in. Co-create the Definition of Ready with your tech lead
     successLooks:
       - ✅ No one asks "what are you working on?"—it's documented and visible
       - ✅ Engineering rarely has to come back and ask "what did you mean?"
@@ -83,8 +83,8 @@ levels:
         - name: 3. Build Experimentation Muscle (Month 2-3)
           steps:
             - 'Pick one upcoming feature: Turn it into a hypothesis with success criteria'
-            - 'Implement feature flags: Start with simple on/off toggles, progress to A/B tests'
-            - 'Run your first A/B test: Even if it''s small—prove the infrastructure works'
+            - 'Establish your experimentation toolkit: Define 2-3 research methods (e.g., user testing, analytics analysis, surveys) you'll use regularly'
+            - 'Run your first structured experiment: Execute a small test using whichever method fits best—prove the habit, not the infrastructure'
             - 'Document and share learnings: Even (especially!) failed experiments'
             - 'Create experiment backlog: Maintain a list of things you want to test'
     quickWins:
