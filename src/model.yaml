@@ -25,16 +25,16 @@ levels:
       - id: p1-specs
         name: PRD Standards & Documentation
         criteria:
-          - Standardized templates exist for product specifications
-          - All features have written specs before development begins
-          - Specs include problem statement, user needs, success criteria
+          - Standardized templates exist for PRDs / requirements
+          - All features have written PRDs before development begins
+          - PRDs include problem statement, user needs, success criteria
           - Documentation is accessible and searchable by the team
         ai:
           enabled: true
           examples:
             - Using AI to draft initial PRD sections from brief problem statements
             - AI-assisted creation of user story acceptance criteria
-            - Automated consistency checking across related specs
+            - Automated consistency checking across related PRDs
       - id: p1-roadmap
         name: Roadmaps & Planning Cadence
         criteria:
@@ -138,7 +138,7 @@ levels:
           examples:
             - AI-generated draft release notes and customer communications
             - Automated segmentation of customers for targeted feature rollouts
-            - LLM creation of customer education content from specs
+            - LLM creation of customer education content from PRDs
       - id: p2-experimentation
         name: Experimentation & Learning
         criteria:
@@ -161,13 +161,12 @@ levels:
     description: Driving organizational strategy, technical direction, and continuous innovation
     context: >-
       Teams at this level are recognized as strategic partners to the business. They don't just execute on a strategy
-      handed to them—they shape the strategy itself. Product teams identify new opportunities, drive technical
-      architecture decisions, and continuously discover the next wave of innovation. The product function is seen as a
-      source of competitive advantage.
+      handed to them—they shape the strategy itself. Product teams identify new opportunities, continuously discover the next wave of innovation, and have the capability to validate 
+      and commercialize risky innovations through customer co-funded programs. The product function is seen as a source of competitive advantage and can generate revenue through strategic innovation partnerships.
     value: >-
       Business value: First-mover advantages, sustainable differentiation, efficient capital allocation to innovation,
-      reduced risk of disruption. Product teams become magnets for top talent. The organization can pivot strategically
-      with confidence.
+      reduced risk of disruption, new revenue streams from innovation work, and de-risked product bets through customer
+      validation. Product teams become magnets for top talent.
     practices:
       - id: p3-continuous-discovery
         name: Continuous Discovery
@@ -189,52 +188,45 @@ levels:
         name: Product-Led Business Strategy
         criteria:
           - Product leaders contribute to company strategy formulation
-          - Product teams identify new business opportunities and markets
-          - Product strategy includes 2-3 year vision, not just near-term roadmap
+          - Product teams identify new business opportunities markets, and revenue models
+          - Product strategy includes 2-3 year vision, with commercial considerations
           - Build vs buy vs partner decisions are product-led
           - Product organization influences company resource allocation
+          - Strategy balances product-led development with customer-funded innovation opportunities
         ai:
           enabled: true
           examples:
             - AI-powered competitive intelligence and market trend analysis
             - LLM synthesis of industry research into strategic implications
             - AI-assisted scenario planning and strategy visualization
-            - Automated TAM/SAM/SOM calculations from market research
-      - id: p3-technical-strategy
-        name: Technical Architecture & Platform Decisions
-        criteria:
-          - Architectural runway that supports product strategy is documented
-          - Product teams advocate for platform investments and technical debt work
-          - Technical architecture decisions consider product strategy
-          - Platform capabilities enable rapid product experimentation
-          - Product leaders can articulate technical strategy to executives
-        ai:
-          enabled: true
-          examples:
-            - AI analysis of technical debt impact on product velocity
-            - LLM-assisted business case creation for platform investments
-            - AI benchmarking of technical architecture against industry patterns
+            - Automated market sizing and revenue opportunity analysis (TAM/SAM/SOM)
       - id: p3-cocreation
-        name: Customer Co-Creation
+        name: Customer co-funded innovation
         criteria:
-          - Structured programs exist for customer advisory boards or design partners
-          - Early-stage product concepts are tested with customers regularly
-          - Customer co-creation model with enabling commercial model exists
+          - Structured programs exist for customer-funded innovation partnerships (design partners, co-innovation labs, pilot programs)
+          - Clear framework exists for identifying which opportunities are suitable for co-funded work vs product investment
+          - Established commercial models for innovation work (milestone-based, success-based, value-based pricing)
+          - Legal/contracting frameworks and templates exist for co-funded innovation agreements
+          - Dedicated capacity is reserved and managed for co-funded innovation work
+          - Process exists for transitioning validated co-funded innovations into product offerings
+          - Product team partners with sales/CS/finance to scope, price, and deliver innovation work
           - Backlog of customer co-creation opportunities have been identified
         ai:
           enabled: true
           examples:
+            - AI-generated customer proposals and business case documents for co-funded work
             - AI synthesis of co-creation session outputs into product requirements
             - Automated analysis of beta feedback to prioritize refinements
-            - LLM-generated summaries of advisory board insights for executive team
+            - AI assistance in creating demo materials and proof-of-concept documentation
       - id: p3-influence
         name: Cross-Org Influence & Product Culture
         criteria:
-          - Product management is seen as a strategic function, not a service organization
+          - Product management is seen as strategic function that contributes to revenue, not just a cost center
           - Product leaders influence hiring and org design beyond product
           - Product thinking spreads to other departments (outcome-orientation, experimentation)
           - Product organization attracts top talent in the industry
-          - Executive team seeks product input on strategic decisions
+          - Executive team seeks product input on strategic decisions, partnerships, and major investments
+          - Finance and legal support the innovation model with appropriate processes
         ai:
           enabled: false
           examples: []

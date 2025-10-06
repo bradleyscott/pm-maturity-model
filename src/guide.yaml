@@ -120,7 +120,8 @@ levels:
       - You've maxed out obvious optimizations—now need to find what's next
       - Leadership sees product team as competent execution arm, but not strategic
       - You have insights about where the market is heading but no forum to discuss
-      - Technical architecture decisions happen without product input
+      - You have opportunities that are too risky/expensive to validate through product investment alone
+      - Strategic customers are asking for co-innovation partnerships
       - Product team wants more autonomy and strategic influence
     startHere:
       title: Shift from Execution to Strategic Partner
@@ -130,47 +131,56 @@ levels:
             - 'Go from monthly to weekly customer research: Block 4-6 hours every week, non-negotiable'
             - 'Diversify research methods: Add surveys, field visits, data analysis, competitive analysis'
             - 'Adopt opportunity solution trees: Visualize how customer needs connect to solutions'
+            - 'Add commercial lens: Explicitly evaluate opportunities for co-funding potential'
             - 'Share discovery insights in exec meetings: Make leadership aware of what you''re learning'
             - 'AI Quick Win: Use AI to synthesize multi-source research into actionable opportunity areas'
         - name: 2. Develop Strategic Muscle (Month 2-4)
           steps:
-            - 'Write a 2-3 year product vision: What should the product become? Why?'
+            - 'Write a 2-3 year product vision: What should the product become? Why? Include commercial considerations'
             - 'Identify strategic opportunities: What new markets, use cases, or business models make sense?'
             - 'Present to leadership: Schedule time to discuss product strategy, not just roadmap'
             - 'Connect product to company strategy: Show how product can enable company goals'
             - 'AI Quick Win: Use AI for competitive analysis and market trend synthesis'
-        - name: 3. Partner on Technical Strategy (Month 3-4)
+        - name: 3. Build co-funded innovation capability (Month 3-5)
           steps:
-            - 'Schedule product/eng strategy sessions: Quarterly discussions about technical direction'
-            - 'Build business case for platform investments: Articulate how technical work enables product goals'
-            - 'Co-present to exec team: Show united front on technical architecture decisions'
-            - 'Involve product in build/buy/partner decisions: Bring customer perspective to vendor evaluations'
-        - name: 4. Create Customer Co-Creation Programs (Month 4-6)
+            - 'Identify 2-3 strategic customers interested in co-innovation'
+            - 'Create framework for co-funded work: Criteria, pricing approaches, legal templates'
+            - 'Run first paid innovation pilot: Clear scope, 4-8 weeks, measurable success metrics'
+            - 'Document process, learnings, and path to product for successful innovations'
+            - 'Partner with sales/CS on identifying opportunities'
+            - 'AI Quick Win: Use AI to generate proposals and business cases for co-funded work'
+        - name: 5. Establish Innovation Commercialization Process (Month 5-6)
           steps:
-            - 'Identify strategic customers: Who do you want to build the future with?'
-            - 'Establish advisory board: Quarterly meetings with 6-10 strategic customers'
-            - 'Run beta/alpha programs: Test early concepts with customers who will give honest feedback'
-            - 'Document and share co-creation insights: Make this visible to exec team'
+            - 'Create innovation service offerings/packages with pricing methodology'
+            - 'Train sales/CS teams on identifying co-funded opportunities'
+            - 'Define path from co-funded work to product'
+            - 'Build pipeline visibility for innovation revenue'
+            - 'Celebrate first successes internally with cross-functional stakeholders'
     quickWins:
-      - 'Create product strategy one-pager: Forces clarity on vision and strategic choices'
-      - 'Invite a customer to an exec team meeting: Brings customer voice directly to leadership'
-      - 'Run "opportunity solution tree" workshop: Creates shared understanding of strategic opportunities'
+      - 'Create product strategy one-pager: Forces clarity on vision and strategic choices, include innovation/revenue model'
+      - 'Invite a customer to an exec team meeting: Brings customer voice directly to leadership, discuss co-innovation potential'
+      - 'Run "opportunity solution tree" workshop: Creates shared understanding of strategic opportunities including commercial viability'
       - 'Present competitive analysis quarterly: Position product team as market intelligence source'
-      - 'Co-author tech blog post with engineering: Demonstrates strategic partnership'
+      - 'Develop one-page co-funded innovation framework: Document what, when, how for innovation partnerships'
+      - 'Present first co-funded innovation business case to leadership: Build confidence in commercial capability'
     pitfalls:
       - ❌ Thinking "strategy" means long presentations instead of clear choices
-      - ❌ Advocating for innovation without connecting to business value
-      - ❌ Bypassing engineering leadership when discussing technical strategy
+      - ❌ Advocating for innovation without connecting to business value or revenue
       - ❌ Only engaging with customers you already agree with
       - ❌ Creating strategy in a vacuum instead of with cross-functional partners
-      - ❌ Letting perfect be enemy of good—you don't need a complete 3-year plan to start
+      - ❌ Taking on too much co-funded work and neglecting core product
+      - ❌ Under-pricing innovation work because you're unsure of value
+      - ❌ Not having clear criteria for which opportunities deserve co-funding vs product investment
+      - ❌ Letting co-funded work become consulting without path to product
     successLooks:
       - ✅ Product team is invited to contribute to company strategy discussions
       - ✅ Exec team asks product opinion on M&A, partnership, and investment decisions
       - ✅ Product team identifies new opportunities before they're requested
-      - ✅ Technical architecture enables rapid experimentation
       - ✅ Strategic customers see you as partner, not just vendor
+      - ✅ Revenue stream exists from co-funded innovation work
+      - ✅ Validated co-funded innovations successfully transition to product
       - ✅ Product team is a talent magnet—people want to work there
+      - ✅ Leadership views product as revenue contributor, not just cost center
       - ✅ Other departments adopt product practices (experimentation, outcome focus)
     nextLevel:
       - This IS the peak. Now the work is sustaining excellence and continuously discovering the future.
