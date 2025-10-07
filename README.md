@@ -16,7 +16,7 @@ Each level contains specific practices with clear pass criteria that teams can u
 
 **[View Live Site](https://pm-maturity-model.netlify.app)** ← Deploy to see the interactive version
 
-- [View the Maturity Model](https://pm-maturity-model.netlify.app/model) - Explore all 3 levels and 15 practices
+- [View the Maturity Model](https://pm-maturity-model.netlify.app/model) - Explore all 3 levels and 14 practices
 - [Take the Self-Assessment](https://pm-maturity-model.netlify.app/assessment) - Evaluate your team's current state
 - [Read the Getting Started Guide](https://pm-maturity-model.netlify.app/guide) - Step-by-step implementation guidance
 
@@ -30,7 +30,7 @@ Each level contains specific practices with clear pass criteria that teams can u
 
 ## 📊 What's Included
 
-The model covers **15 practices across 3 levels**:
+The model covers **14 practices across 3 levels**:
 
 **Level 1 (Foundational):**
 
@@ -53,7 +53,7 @@ The model covers **15 practices across 3 levels**:
 - Continuous Discovery ✨
 - Product-Led Business Strategy ✨
 - Technical Architecture & Platform Decisions ✨
-- Customer Co-Creation ✨
+- Customer co-funded innovation ✨
 - Cross-Org Influence & Product Culture
 
 ✨ = AI acceleration opportunities available

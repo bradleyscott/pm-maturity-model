@@ -28,7 +28,7 @@ This directory contains the **source of truth** for all content in the PM Maturi
 
 ### model.yaml
 
-The main file containing all 3 levels and 15 practices.
+The main file containing all 3 levels and 14 practices.
 
 **Level Object:**
 ```yaml
