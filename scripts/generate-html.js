@@ -28,6 +28,9 @@ function generateModelHTML(data) {
     <div class="min-h-screen">
         <header class="bg-white shadow-sm border-b border-gray-200">
             <div class="max-w-7xl mx-auto px-6 py-6">
+                <div class="mb-3">
+                    <a href="index.html" class="text-purple-600 hover:text-purple-800 text-sm font-medium">← Back to Home</a>
+                </div>
                 <h1 class="text-4xl font-bold text-gray-900">Product Management Maturity Model</h1>
                 <p class="text-lg text-gray-600 mt-2">A practice-based framework for B2B/Enterprise product teams to assess and improve their capabilities</p>
             </div>
@@ -74,7 +77,7 @@ function generateModelHTML(data) {
         <footer class="bg-white border-t border-gray-200 mt-12">
             <div class="max-w-7xl mx-auto px-6 py-6 text-center text-gray-600 text-sm">
                 <p>Product Management Maturity Model | Built for B2B/Enterprise Product Teams</p>
-                <p class="mt-2"><a href="index.html" class="text-purple-600 hover:text-purple-800">← Back to Home</a></p>
+                <p class="mt-2"><a href="https://github.com/bradleyscott/pm-maturity-model" target="_blank" rel="noopener noreferrer" class="text-purple-600 hover:text-purple-800">Suggest a change →</a></p>
             </div>
         </footer>
     </div>
@@ -214,6 +217,9 @@ function generateAssessmentHTML(data) {
     <div class="min-h-screen">
         <header class="bg-white shadow-sm border-b border-gray-200">
             <div class="max-w-7xl mx-auto px-6 py-6">
+                <div class="mb-3">
+                    <a href="index.html" class="text-purple-600 hover:text-purple-800 text-sm font-medium">← Back to Home</a>
+                </div>
                 <h1 class="text-3xl font-bold text-gray-900">Product Management Maturity Self-Assessment</h1>
             </div>
         </header>
@@ -291,7 +297,7 @@ function generateAssessmentHTML(data) {
         <footer class="bg-white border-t border-gray-200 mt-12">
             <div class="max-w-7xl mx-auto px-6 py-6 text-center text-gray-600 text-sm">
                 <p>Product Management Maturity Model | Built for B2B/Enterprise Product Teams</p>
-                <p class="mt-2"><a href="index.html" class="text-purple-600 hover:text-purple-800">← Back to Home</a></p>
+                <p class="mt-2"><a href="https://github.com/bradleyscott/pm-maturity-model" target="_blank" rel="noopener noreferrer" class="text-purple-600 hover:text-purple-800">Suggest a change →</a></p>
             </div>
         </footer>
     </div>
@@ -521,6 +527,9 @@ function generateGuideHTML(data) {
 </head>
 <body class="bg-white">
     <div class="max-w-6xl mx-auto p-6 bg-white">
+        <div class="mb-4">
+            <a href="index.html" class="text-purple-600 hover:text-purple-800 text-sm font-medium">← Back to Home</a>
+        </div>
         <div class="mb-8">
             <h1 class="text-4xl font-bold text-gray-900 mb-4">
                 Getting Started Guide
@@ -726,6 +735,13 @@ function generateGuideHTML(data) {
         // Initial render
         renderLevels();
     </script>
+
+    <footer class="bg-white border-t border-gray-200 mt-12">
+        <div class="max-w-7xl mx-auto px-6 py-6 text-center text-gray-600 text-sm">
+            <p>Product Management Maturity Model | Built for B2B/Enterprise Product Teams</p>
+            <p class="mt-2"><a href="https://github.com/bradleyscott/pm-maturity-model" target="_blank" rel="noopener noreferrer" class="text-purple-600 hover:text-purple-800">Suggest a change →</a></p>
+        </div>
+    </footer>
 </body>
 </html>`;
 }
